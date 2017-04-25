@@ -14,3 +14,5 @@ def tah_hrace(herni_pole):
 
 def tah(herni_pole, cislo_policka, symbol):
     return herni_pole[:cislo_policka] + symbol + herni_pole[cislo_policka + 1:]
+
+print(tah_hrace("--------------------"))
