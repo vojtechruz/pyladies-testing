@@ -40,8 +40,6 @@ def piskvorky1d():
                 raise ValueError("Nepripustny vysledek hry '{}'".format(vysledek))
             return
 
-# Funkce z minulych ukolu
-
 def tah_hrace(herni_pole):
     while True:
         cislo_policka = input("Zadej cislo policka 0-19: ")
